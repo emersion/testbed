@@ -1,0 +1,4 @@
+image: alpine/latest
+tasks:
+  - build: |
+      echo "Hello World!"
