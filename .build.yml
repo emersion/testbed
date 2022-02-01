@@ -1,4 +1,6 @@
 image: alpine/latest
+sources:
+  - https://github.com/emersion/testbed.git
 tasks:
   - build: |
       echo "Hello World!"
